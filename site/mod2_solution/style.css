@@ -155,7 +155,8 @@ p{
 	position: relative;
 	border: 2px solid black;
 	height: 150px;
-	margin: 15px;
+  width: auto;
+	margin: 15px 10px 5px 10px;
 	padding: 23px;
 	background-color: gray;
 	overflow-y: scroll;
@@ -174,7 +175,7 @@ p{
 a{
 	position: absolute;
 	top: 15px;
-	right: 15px;
+	right: 10px;
 	width: 100px;
 	border: 2px solid black;
 	font-style: italic;
