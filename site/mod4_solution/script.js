@@ -4,7 +4,7 @@
     var firstLetter;
     firstLetter=names[i].charAt(0);
     if (firstLetter=='J' || firstLetter=='j') {
-      byeSpeaker.speak(names[i]);
+      BYE.speak(names[i]);
     } else {
       HelloSpeaker.speak(names[i]);
     }
